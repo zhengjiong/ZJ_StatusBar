@@ -7,6 +7,7 @@
               android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
@@ -41,26 +42,6 @@
                 android:id="@+id/btn_two"
                 style="@style/btn"
                 android:text="方法二" />
-
-            <Button
-                android:id="@+id/btn_three"
-                style="@style/btn"
-                android:text="方法三" />
-
-            <Button
-                android:id="@+id/btn_four"
-                style="@style/btn"
-                android:text="方法四" />
-
-            <Button
-                android:id="@+id/btn_five"
-                style="@style/btn"
-                android:text="方法五" />
-
-            <Button
-                android:id="@+id/btn_six"
-                style="@style/btn"
-                android:text="方法六" />
         </LinearLayout>
     </ScrollView>
 
